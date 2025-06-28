@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PassPouch - Encrypted Password Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">🔐 PassPouch</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Encrypted Password Manager</h1>
+        <p>Welcome to PassPouch — your secure personal vault.</p>
+
+        <h2>Your Passwords <span id="alert">Copied!</span></h2>
+        <table id="passwordTable"></table>
+
+        <h2>Add a Password</h2>
+        <form>
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" placeholder="e.g. gmail.com" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="e.g. shivateja" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="e.g. secret123!" required>
+            <button class="btn" type="submit">Save Password</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -33,19 +33,24 @@ It includes features like masked password display, copy-to-clipboard, and secure
 
 ##  How to Run Locally
 
-1. Clone this repository 
+1. Clone this repository
+   ```bash
    git clone https://github.com/Shivateja9876/PassPouch-Password-manager.git
+   
    cd PassPouch-Password-manager
 
 ## Screenshot and Demo
 
-   ![WhatsApp Image 2025-06-28 at 16 47 16_95af7317](https://github.com/user-attachments/assets/dfd2e3d1-d21e-421b-ae6a-c69b9a31aa9d)
+   ![imgs](https://github.com/user-attachments/assets/dfd2e3d1-d21e-421b-ae6a-c69b9a31aa9d)
 
 
+  
   https://github.com/user-attachments/assets/a6f80b8e-3ca0-4607-b5d8-69def682fb8f
 
-## developed by
-   **Shiva Teja**
-   shivatejk12@gmail.com
-   https://github.com/shivateja9876
+## Contact
+
+**Shiva Teja**  
+📧 shivatejk12@gmail.com  
+🔗 [GitHub](https://github.com/shivateja9876)
+
 
